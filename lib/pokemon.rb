@@ -22,6 +22,7 @@ class Pokemon
     if !pokemon_info[3]
       new_poke.alter_hp(new_poke.hp, db)
     end
+    new_poke
   end
 
   def alter_hp(hp_in, db)
